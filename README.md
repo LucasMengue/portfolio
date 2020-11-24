@@ -1,4 +1,4 @@
-# portifolio
+# portfolio
 
 Portifolio desenvolvido com HTML, CSS e Javascript
 
@@ -10,5 +10,5 @@ O controle dessas tarefas desse projeto será realizado no Github
 
 :package: Nova funcionalidade
 :up: Atualização
-:beatle: Correção de bug
+:beetle: Correção de bug
 :checkered_flag: Release
