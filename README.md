@@ -1,6 +1,6 @@
 # Portfolio
 
-Portifolio desenvolvido com HTML, CSS e Javascript
+Portfolio desenvolvido com HTML, CSS e Javascript
 
 ## Tarefas
 
