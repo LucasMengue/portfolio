@@ -38,9 +38,9 @@
           <img src="imagens/bg.jpg" alt="" />
         </div>
         <div class="banner">
-          <h1>Web Developer & Front End Designer</h1>
+          <h1>Desenvolvedor Web & Front End Designer</h1>
           <p>Lucas Mengue Rosa</p>
-          <button>Saiba mais</button>
+          <a href="#conhecimentos">Saiba mais</a>
         </div>
       </header>
 
@@ -59,15 +59,15 @@
             <li class="menu-item">
               <a href="#contato" class="menu-link">Contato</a>
             </li>
-            <li class="menu-item">
-              <a href="#orcamentos" class="menu-link">Orçamento</a>
-            </li>
           </ul>
         </nav>
         <div class="social-media">
-          <a href="#"><i class="fab fa-facebook"></i></a>
-          <a href="#"><i class="fab fa-github-alt"></i></a>
-          <a href="#"><i class="fab fa-twitter"></i></a>
+          <a href="https://github.com/LucasMengue" target="_blank"
+            ><i class="fab fa-github-alt"></i
+          ></a>
+          <a href="https://www.linkedin.com/in/lucasmengue/" target="_blank"
+            ><i class="fab fa-linkedin"></i
+          ></a>
         </div>
       </aside>
 
@@ -106,8 +106,8 @@
           </div>
           <div class="conhecimento">
             <div class="conhecimento-header">
-              <i class="fas fa-pencil-alt"></i>
-              <h3>Design</h3>
+              <i class="fab fa-react"></i>
+              <h3>ReactJS</h3>
             </div>
             <div class="conhecimento-text">
               <p>
@@ -174,51 +174,65 @@
         <div class="projetos">
           <div class="card">
             <div class="card-img-wrapper">
-              <img src="imagens/proj1.jpg" alt="imagem do projeto ToDo" />
+              <img
+                src="imagens/beauty-salon.png"
+                alt="imagem do projeto ToDo"
+              />
             </div>
             <div class="card-info">
-              <h2>ToDo List</h2>
-              <h3>Javascript</h3>
+              <h2>Beautysalon</h2>
+              <h3>HTML, CSS, Javascript</h3>
               <p>
-                Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugiat
-                atque delectus voluptatum obcaecati suscipit perspiciatis
-                doloremque eius corporis? Corporis ea aspernatur commodi qui
-                laudantium, temporibus porro perspiciatis odit placeat.
-                Perspiciatis.
+                Projeto de uma landing page da marca ficticia, Beautysalon, onde
+                é apresentado em uma única página todas as informações referente
+                a este negócio em particular.
               </p>
-              <button class="btn">Saiba Mais</button>
+              <a
+                href="https://lucasmengue.github.io/nlw-06-origin/"
+                target="_blank"
+                >Saiba Mais</a
+              >
             </div>
           </div>
           <div class="card">
             <div class="card-img-wrapper">
-              <img src="imagens/proj2.jpg" alt="imagem do projeto Maratona" />
+              <img
+                src="imagens/dev.finance.png"
+                alt="imagem do projeto Maratona"
+              />
             </div>
             <div class="card-info">
-              <h2>Maratona</h2>
-              <h3>HTML, CSS</h3>
+              <h2>dev.finance$</h2>
+              <h3>HTML, CSS, Javascript</h3>
               <p>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
-                odio non corrupti, accusamus placeat illum eum quas ullam
-                ducimus eaque nam porro suscipit nesciunt soluta in velit
-                doloribus cumque dolorem?
+                Projeto feito com o intuito de ser uma carteira digital, onde se
+                possa cadastrar as entradas e saídas de transações do cliente e
+                mostrando o total que ele gastou e economizou.
               </p>
-              <button class="btn">Saiba Mais</button>
+              <a
+                href="https://lucasmengue.github.io/maratona-discovery/"
+                target="_blank"
+                >Saiba Mais</a
+              >
             </div>
           </div>
           <div class="card">
             <div class="card-img-wrapper">
-              <img src="imagens/proj3.jpg" alt="imagem do projeto Casa Bela" />
+              <img
+                src="imagens/todo-list.png"
+                alt="imagem do projeto Casa Bela"
+              />
             </div>
             <div class="card-info">
-              <h2>Casa Bela</h2>
-              <h3>HTML</h3>
+              <h2>To-do List</h2>
+              <h3>JavaScript, Bootstrap</h3>
               <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Non,
-                dignissimos sequi recusandae temporibus, laborum, laboriosam
-                maiores nulla obcaecati nemo ad quas placeat nesciunt nam! Quae
-                error harum minima praesentium molestias?
+                Projeto feito a partir de uma lista de afazeres, onde é capaz de
+                cadastrar, excluir e filtrar as mesmas.
               </p>
-              <button class="btn">Saiba Mais</button>
+              <a href="https://lucasmengue.github.io/todo-list/" target="_blank"
+                >Saiba Mais</a
+              >
             </div>
           </div>
         </div>
@@ -248,52 +262,28 @@
                 <textarea class="field" id="mensagem"></textarea
                 ><label for="mensagem" class="field-label">Mensagem</label>
               </div>
-              <button type="submit" class="btn btn-submit">Enviar</button>
+              <button type="submit" class="btn-submit">Enviar</button>
             </form>
           </div>
         </div>
       </section>
 
-      <section class="sessao-orcamento" id="orcamentos">
-        <div class="orcamento-wrapper">
-          <h1>Faça um orçamento</h1>
-          <form>
-            <label for="qtde">Quantidade de Páginas</label>
-            <input type="number" min="1" name="qtde" id="qtde" />
-            <label for="js">Preciso de um script JS</label>
-            <input type="checkbox" name="js" id="js" />
-            <label>Layout</label>
-            <div class="group-layout">
-              <div>
-                <input type="radio" name="layout" id="layout-sim" />
-                <label for="layout-sim">Preciso de um layout</label>
-              </div>
-              <div>
-                <input type="radio" name="layout" id="layout-nao" />
-                <label for="layout-nao">Já tenho um layout</label>
-              </div>
-            </div>
-            <label for="prazo">Prazo</label>
-            <input type="range" name="prazo" id="prazo" min="1" max="10" />
-            <label id="preco">R$0,00</label>
-            <button type="submit" class="btn btn-orcamento">Enviar</button>
-          </form>
-        </div>
-      </section>
-
       <footer>
         <div class="footer-content">
-          <p>Copyright &copy; 2020, ETECIA DS - Todos os direitos reservados</p>
+          <p>Copyright &copy; 2022, Lucas Mengue Rosa</p>
           <div class="social-list">
             <ul>
               <li>
-                <a href=""><i class="fab fa-facebook-f"></i></a>
+                <a href="https://github.com/LucasMengue" target="_blank"
+                  ><i class="fab fa-github-alt"></i
+                ></a>
               </li>
               <li>
-                <a href=""><i class="fab fa-instagram"></i></a>
-              </li>
-              <li>
-                <a href=""><i class="fab fa-twitter"></i></a>
+                <a
+                  href="https://www.linkedin.com/in/lucasmengue/"
+                  target="_blank"
+                  ><i class="fab fa-linkedin"></i
+                ></a>
               </li>
             </ul>
           </div>
