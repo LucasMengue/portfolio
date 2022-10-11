@@ -144,7 +144,8 @@ header {
   animation: moveBanner 1s 0.7s forwards;
 }
 
-.banner button {
+.banner a {
+  display: inline-block;
   font-family: var(--font-action);
   color: #ffffff;
   text-transform: uppercase;
@@ -323,6 +324,7 @@ header {
 .projetos {
   display: flex;
   justify-content: space-evenly;
+  margin-bottom: 2rem;
 }
 
 .card {
@@ -371,19 +373,25 @@ header {
 .card-info h3 {
   font-family: var(--font-secundary);
   font-weight: bolder;
-  color: #ff4081;
+  color: #fff;
   margin-bottom: 1.5rem;
 }
 
 .card-info p {
   font-family: var(--font-secundary);
-  font-weight: 400;
+  font-size: 1.1rem;
+  font-weight: 600;
+  letter-spacing: 2px;
   color: #eee;
   width: 80%;
   margin-bottom: 2rem;
 }
 
-.btn {
+.card-info a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.5rem;
   background: #6a3093;
   background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
   background: linear-gradient(to right, #a044ff, #6a3093);
@@ -394,13 +402,8 @@ header {
   box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
 }
 
-.card-info button {
-  width: 8rem;
-  height: 2.5rem;
-}
-
 .card:hover .card-info {
-  bottom: 2rem;
+  bottom: 0.5rem;
   opacity: 1;
   visibility: visible;
 }
@@ -499,74 +502,15 @@ header {
   font-size: 1.2rem;
   text-transform: uppercase;
   margin-top: 1rem;
-}
-
-/*== Sessão Orçamento ==*/
-
-.sessao-orcamento {
-  width: 100%;
-  height: 100vh;
-  background: url(imagens/bg-orcamento.jpg);
-  object-fit: cover;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.orcamento-wrapper {
-  width: 60%;
-  height: 80%;
-  background-color: #ffffff99;
-  border-radius: 10px;
-  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
-  position: relative;
-}
-
-.sessao-orcamento h1 {
-  position: absolute;
-  top: -2.5rem;
-  left: 2rem;
   background: #6a3093;
   background: -webkit-linear-gradient(to right, #a044ff, #6a3093);
   background: linear-gradient(to right, #a044ff, #6a3093);
-  padding: 0 3rem;
-  font-family: var(--font-primary);
-  font-size: 3rem;
-  font-weight: lighter;
-  color: #fff;
-  box-shadow: 0 0.1rem 0.3rem rgba(0, 0, 0, 0.5);
-  border-radius: 10px;
-}
-
-.sessao-orcamento form {
-  margin: 4rem;
-  display: grid;
-  grid-template-columns: auto 1fr;
-  column-gap: 2rem;
-  row-gap: 2rem;
-}
-
-.sessao-orcamento label {
-  font-family: var(--font-secundary);
-  font-size: 1.5rem;
-  font-weight: bold;
-}
-
-.sessao-orcamento input[type="number"] {
-  width: 4rem;
-  font-family: var(--font-secundary);
-  font-size: 2rem;
-  outline: none;
-  border-radius: 10px;
+  font-family: var(--font-action);
+  color: #eee;
+  border-radius: 0.5rem;
   border: none;
-  padding: 0.3rem;
-}
-
-.btn-orcamento {
-  text-transform: uppercase;
-  padding: 1rem;
+  box-shadow: 0 0.1rem 0.8rem rgba(0, 0, 0, 0.4);
   cursor: pointer;
-  grid-column: 2;
 }
 
 /*== Sessão Rodapé ==*/
